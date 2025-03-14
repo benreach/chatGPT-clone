@@ -1,0 +1,47 @@
+.dashboardLayout{
+    display: flex;
+    gap: 50px;
+    padding-top: 20px;
+    height: 100%;
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        animation: 3s ease-in-out animatedMenu;
+        gap: 8px;
+
+        .menu{
+            flex: 1;
+
+        }
+
+    }
+
+    .content{
+        flex: 5;
+        background-color: #0A0900;
+        padding: 15px;
+    }
+}
+
+@keyframes animatedMenu{
+    0%{
+        transition: all;
+        transform: scaleX(1);
+    }
+    100%{
+        transition: all;
+    }
+
+}
+@media screen and (max-width:870px) {
+    .dashboardLayout{
+        .menu{
+            display: none;
+        }
+        .content{
+            width: 100%;;
+        }
+    }
+}   

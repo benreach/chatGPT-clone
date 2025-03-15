@@ -33,6 +33,7 @@ function ChatPage() {
           Use the Color Wheel to create harmonious colors that make a palette. Choose your base color, then select from a variety of color harmonies like analogous, triadic, complementary, and more to create beautiful designs.</div>
           <div className="message">Test message from AI</div>
           <div className="message user">Test message from user</div>
+          
           <NewPrompt/>
           <div ref={endRef}/>
         </div>

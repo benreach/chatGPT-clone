@@ -12,6 +12,8 @@
   "dependencies": {
     "@clerk/clerk-react": "^5.24.2",
     "@tailwindcss/vite": "^4.0.13",
+    "dotenv": "^16.4.7",
+    "imagekitio-react": "^4.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.3.0",

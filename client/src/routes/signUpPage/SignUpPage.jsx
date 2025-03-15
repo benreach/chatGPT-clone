@@ -1,6 +1,6 @@
 import { SignUp } from '@clerk/clerk-react'
 import React from 'react'
-import "./SignUpPage.css";
+
 
 function SignUpPage() {
   return (
